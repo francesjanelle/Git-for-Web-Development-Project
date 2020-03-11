@@ -1,0 +1,159 @@
+https://codepen.io/francesjanelle/pen/OJVQPXB
+
+
+
+    1. What is Semantic HTML? 
+	Gives meaning and be more specific
+
+    2. What is HTML used for?
+	Its to build the very basics of a website. The foundation of a website.
+ 
+    3. What is an attribute and where do we put it? 
+	to give name to the value or the group.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	h1 is the top and the first thing web users will see and should only be used once.
+
+    5. Name two tags that have required attributes
+	paragraph <p> </p> and anchor <a> </a>
+
+    6. What do we put in the head of our HTML document? 
+	<Heading>
+
+    7. What is an id? 
+	an id is is a type of attribute that's specifically used for something important and can only be used within a page.
+
+    8. What elements can I add an id to?
+	an achor tag, navigation tag
+
+    9. How many times can I use the same id on a page? 
+	one time
+
+    10. What is a class? 
+	a name given to an element
+
+    11. What elements can I add a class to? 
+	paragraphs, lists
+
+    12. How many times can I use the same class on a page? 
+	several
+
+    13. How do I get my link to open in a new tab?
+	<a href="hyperlinkname"> </a>
+
+    14. What is the alt attribute used for? 
+	to put text if an image can't be seen
+
+    15. How do I reference an id?
+	a pund sign #. #name
+
+    16. What is the difference between a section and a div
+	div is a generic name, just no meaning. section gives meaning to html and be more specific
+
+    17. What is CSS used for? 
+	to make website visually prettier. The cosmetics visual of the website.
+
+    18. How to we select an element? Example - every h2 on the page
+	h2 {  }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	 a class starts with a ., .class. And could be used to identify things more than one element
+	 an id starts with a pund sign #, #id. And could be used only one element
+
+    20. How do we select classes in CSS?
+	put a dot before the class name.
+
+    21. How do we select a p element with a single class of “human””?
+	p.human
+
+    22. What is a parent child selector? When would this be useful? 
+	this is used to select all the elements on the right of the >
+	for example Something>
+				lots of items
+				more items
+				items
+
+	This is useful when you want to select everything in the specfifc element
+
+    23. How do you select all links within a div with the class of sidebar?
+	<Important>
+	<div class="useful">
+		links
+		links
+		links  	</div>
+	</Important>
+	
+	Type in the group element name <Important> this is the Parent. Call the class .useful
+	then everything will be selected within that code.
+		---typed in the code to explain it to myself.
+	
+    24. What is a pseudo selector?
+	a certain selector to define it and its typed to a new line.
+	.Relationship {things to put in there}
+	.Relationship:hover
+
+    25. What do we use the change the spacing between lines?
+	line-height property
+
+    26. What do we use to change the spacing between letters?
+	letter-spacing property
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform property
+	text-transform: uppercase; for making every letter in CAPITALS
+	text-transform: capitalize for Capitalize, making first letters of each word to be in  capitals.
+	text-transform: lowercase for making every letter lowercase letters
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	type in the div name whether its class or the id, put {curly brackets} and inside the bracket type the property 'margin'
+	add a colon and type in the details, seperate the details in apce and put a semicolonat the end
+	.div {
+	       margin: 1px dotted black;}
+
+    29. How do I select everything on the page?
+	the asterisk symbol. *
+ 
+    30. How do I write a comment in CSS?
+	use /* for comments */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+	pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	$ ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	$ rm. If used, withour warning it will be deleted and it can't be recovered.
+
+    34. Why should I use version control? 
+	It allows us to keep track of work and changes.
+
+    35. How often should I commit to github?
+	as often as possible, when something works, whem 20 miinutes have passed.
+
+    36. What is the command we would use to push our repo up to github? 
+	git push
+
+    37. Walk me through Lambda's git flow.
+	1.) Fork the master repo (make sure the personal name is on the left hand side of the repo)
+	2.) Add Team Leader (Nicole Antonacci)
+	3.) Clone repo (green button)
+	4.) Copy HTTPS link
+	5.) go back to terminal and type in cd to place the repo where I want it to be
+	6.) type in git clone and paste HTTPS link
+	7.) cd the repo name
+	8.) type in git checkout -b "Frances-Janelle" the branch will now be "Frances-Janelle"
+	9.) type in francesjanelle.txt to create a text file. This will create a text file for visual studio
+	10.) type in code . tp open up visual code studio
+	11.) work on project
+	12.) after working on project type in git add . to add the changes in repo
+	13.) type in git commit -m "put message here" to let others know what changes has been made.
+	14.) type in git push -u origin Frances-Janelle. This will make the changes in local machine and into GitHub
+	15.) Submit a Pull Request
+	16.) Go back to forked copy and click branch button.
+	17.) select branch name. Frances-Janelle
+	18.) click new pull request. This should redirect to pr page.
+		[IMPORTANT: don't create pull request]
+	19.) click base repository and click on the personal forked copy
+	20.) Add TL to Reviewers and submit PR
+		[IMPORTANT: Do not merge own personal pull request]
